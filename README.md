@@ -1,9 +1,9 @@
-# ezTSA
+# ezTimeStamp
 This Bash script allows you to easily use the Time Stamping Authority (TSA) service provided by FreeTSA.org.
 
 ## usage:
 ```
-ezTSA.sh /path/to/file
+ezTimeStamp /path/to/file
 ```
 
 When you run the script to generate a timestamp for a file, the original file never leaves your machine. Instead, the script generates a timestamp query (TSQ) file that contains a cryptographic hash of the original file. This hash is a fixed-size string of characters that uniquely represents the contents of the original file, but does not reveal any information about the file itself.
