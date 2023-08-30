@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# ezTimeStamp
 # This Bash script allows you to easily use the Time Stamping Authority (TSA) service provided by FreeTSA.org.
 # The script takes the file path as an argument, creates a folder named after the file ending with "_TSA" in the same directory as the original file, and moves the file into that folder.
 # The script then generates a timestamp query (tsq) file for the specified file, sends a timestamp request to FreeTSA.org, and verifies the timestamp response (tsr) file.
